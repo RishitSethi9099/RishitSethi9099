@@ -167,16 +167,16 @@
   <text x="20" y="388" font-size="9" fill="#7a7a7a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="9.1s"  fill="freeze"/>@@@@@@@@@@@@@********####%%%%%%%%%%%%%%%##@@@@@@@@@@@@@@@@@@</text>
   <text x="20" y="399" font-size="9" fill="#7a7a7a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="9.2s"  fill="freeze"/>@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
 
-  <text x="20" y="416" font-size="9.5" fill="#aaaaaa" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="9.3s" fill="freeze"/> name       : Rishit Sethi</text>
-  <text x="20" y="429" font-size="9.5" fill="#aaaaaa" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="9.4s" fill="freeze"/> role       : Mechatronics Eng. Student</text>
-  <text x="20" y="442" font-size="9.5" fill="#aaaaaa" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="9.5s" fill="freeze"/> university : Manipal University Jaipur</text>
-  <text x="20" y="455" font-size="9.5" fill="#aaaaaa" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="9.6s" fill="freeze"/> focus      : Robotics · Linux · Embedded</text>
-  <text x="20" y="468" font-size="9.5" fill="#8b1a1a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="9.7s" fill="freeze"/> building   : sheller.me</text>
-  <text x="20" y="481" font-size="9.5" fill="#aaaaaa" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="9.8s" fill="freeze"/> os         : Linux</text>
+  <text x="20" y="416" font-size="10.5" fill="#aaaaaa" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="9.3s" fill="freeze"/> name       : Rishit Sethi</text>
+  <text x="20" y="430" font-size="10.5" fill="#aaaaaa" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="9.4s" fill="freeze"/> role       : Mechatronics Eng. Student</text>
+  <text x="20" y="444" font-size="10.5" fill="#aaaaaa" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="9.5s" fill="freeze"/> university : Manipal University Jaipur</text>
+  <text x="20" y="458" font-size="10.5" fill="#aaaaaa" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="9.6s" fill="freeze"/> focus      : Robotics · Linux · Embedded · Automation</text>
+  <text x="20" y="472" font-size="10.5" fill="#8b1a1a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="9.7s" fill="freeze"/> building   : sheller.me</text>
+  <text x="20" y="486" font-size="10.5" fill="#aaaaaa" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="9.8s" fill="freeze"/> os         : Linux</text>
 </g>
 
 <!-- RIGHT SIDE -->
-<g clip-path="url(#cl-r)" font-family="'JetBrains Mono','Courier New',monospace" font-size="9.5">
+<g clip-path="url(#cl-r)" font-family="'JetBrains Mono','Courier New',monospace" font-size="10.5">
 
   <!-- whoami -->
   <text x="455" y="66" opacity="0">
@@ -220,40 +220,44 @@
   <line x1="455" y1="291" x2="883" y2="291" stroke="#222" stroke-width="1" opacity="0">
     <animate attributeName="opacity" values="0;1" dur="0.01s" begin="8.4s" fill="freeze"/>
   </line>
+  <text x="455" y="305" fill="#aaaaaa" opacity="0" font-size="9.2"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="8.45s" fill="freeze"/>learn   : <tspan fill="#cccccc">Computer Networking  Data Analysis  Data Modeling  Data Structures</tspan></text>
+  <text x="455" y="318" fill="#aaaaaa" opacity="0" font-size="9.2"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="8.55s" fill="freeze"/>learn   : <tspan fill="#cccccc">Data Visualization Tools  Formal Communication  Log Analysis  Planning</tspan></text>
 
   <!-- experience -->
-  <text x="455" y="304" opacity="0">
-    <animate attributeName="opacity" values="0;1" dur="0.01s" begin="8.5s" fill="freeze"/>
+  <text x="455" y="326" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.01s" begin="8.7s" fill="freeze"/>
     <tspan fill="#8b1a1a">rishit@github</tspan><tspan fill="#444">:</tspan><tspan fill="#555">~</tspan><tspan fill="#cccccc">$ cat experience.txt</tspan>
   </text>
-  <text x="455" y="317" fill="#cc3333" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="8.7s" fill="freeze"/>Business Analytics Intern  |  EdiGlobe  |  Feb-Mar 2025</text>
-  <text x="455" y="329" fill="#666" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="8.8s" fill="freeze"/>  data analysis, business problem-solving workflows</text>
-  <text x="455" y="341" fill="#aaaaaa" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="8.9s" fill="freeze"/>Core Committee (Corp. Affairs)  |  RAS, MUJ</text>
-  <text x="455" y="353" fill="#666" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="9.0s" fill="freeze"/>  sponsorships, partnerships, event operations</text>
-  <text x="455" y="365" fill="#aaaaaa" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="9.1s" fill="freeze"/>Production Team  |  TechIdeate  |  2024</text>
-  <text x="455" y="377" fill="#666" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="9.2s" fill="freeze"/>  logistics, execution for technical events</text>
-  <line x1="455" y1="387" x2="883" y2="387" stroke="#222" stroke-width="1" opacity="0">
-    <animate attributeName="opacity" values="0;1" dur="0.01s" begin="9.3s" fill="freeze"/>
+  <text x="455" y="339" fill="#cc3333" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="8.9s" fill="freeze"/>Deloitte Australia  |  Data Analytics Simulation  |  Jul 2026</text>
+  <text x="455" y="351" fill="#666" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="9.0s" fill="freeze"/>  Tableau dashboard, Excel data classification, forensic tech</text>
+  <text x="455" y="363" fill="#aaaaaa" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="9.1s" fill="freeze"/>Business Analytics Intern  |  EdiGlobe  |  Feb-Mar 2025</text>
+  <text x="455" y="375" fill="#666" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="9.2s" fill="freeze"/>  data analysis, business problem-solving workflows</text>
+  <text x="455" y="387" fill="#aaaaaa" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="9.3s" fill="freeze"/>Core Committee (Corp. Affairs)  |  RAS, MUJ</text>
+  <text x="455" y="399" fill="#666" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="9.4s" fill="freeze"/>  sponsorships, partnerships, event operations</text>
+  <text x="455" y="411" fill="#aaaaaa" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="9.5s" fill="freeze"/>Production Team  |  TechIdeate  |  2024</text>
+  <text x="455" y="423" fill="#666" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="9.6s" fill="freeze"/>  logistics, execution for technical events</text>
+  <line x1="455" y1="433" x2="883" y2="433" stroke="#222" stroke-width="1" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.01s" begin="9.7s" fill="freeze"/>
   </line>
 
   <!-- connect -->
-  <text x="455" y="400" opacity="0">
-    <animate attributeName="opacity" values="0;1" dur="0.01s" begin="9.4s" fill="freeze"/>
+  <text x="455" y="446" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.01s" begin="9.8s" fill="freeze"/>
     <tspan fill="#8b1a1a">rishit@github</tspan><tspan fill="#444">:</tspan><tspan fill="#555">~</tspan><tspan fill="#cccccc">$ connect --list</tspan>
   </text>
-  <text x="455" y="413" fill="#aaaaaa" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="9.6s" fill="freeze"/>github   &#x2192;  github.com/RishitSethi9099</text>
-  <text x="455" y="425" fill="#aaaaaa" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="9.7s" fill="freeze"/>linkedin &#x2192;  linkedin.com/in/rishit-sethi</text>
-  <text x="455" y="437" fill="#cc3333" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="9.8s" fill="freeze"/>project  &#x2192;  sheller.me</text>
-  <text x="455" y="449" fill="#484848" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="9.9s" fill="freeze"/>mail     &#x2192;  rishitsethi0405@gmail.com</text>
+  <text x="455" y="459" fill="#aaaaaa" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="10.0s" fill="freeze"/>github   &#x2192;  github.com/RishitSethi9099</text>
+  <text x="455" y="471" fill="#aaaaaa" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="10.1s" fill="freeze"/>linkedin &#x2192;  linkedin.com/in/rishit-sethi</text>
+  <text x="455" y="483" fill="#cc3333" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="10.2s" fill="freeze"/>project  &#x2192;  sheller.me</text>
+  <text x="455" y="495" fill="#484848" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="10.3s" fill="freeze"/>mail     &#x2192;  rishitsethi0405@gmail.com</text>
 
   <!-- final prompt + cursor -->
-  <text x="455" y="467" opacity="0">
-    <animate attributeName="opacity" values="0;1" dur="0.01s" begin="10.1s" fill="freeze"/>
+  <text x="455" y="513" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.01s" begin="10.5s" fill="freeze"/>
     <tspan fill="#8b1a1a">rishit@github</tspan><tspan fill="#444">:</tspan><tspan fill="#555">~</tspan><tspan fill="#cccccc">$ </tspan>
   </text>
-  <rect x="531" y="455" width="7" height="13" fill="#8b1a1a" opacity="0">
-    <animate attributeName="opacity" values="0;1" dur="0.01s" begin="10.1s" fill="freeze"/>
-    <animate attributeName="opacity" values="1;0;1" dur="0.8s" begin="10.1s" repeatCount="indefinite" calcMode="discrete"/>
+  <rect x="531" y="501" width="7" height="13" fill="#8b1a1a" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.01s" begin="10.5s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;0;1" dur="0.8s" begin="10.5s" repeatCount="indefinite" calcMode="discrete"/>
   </rect>
 
 </g>
