@@ -52,7 +52,7 @@
   </text>
 
   <!-- hint text -->
-  <text x="104" y="68" fill="#505050" opacity="0">
+  <text x="110" y="69" fill="#6a6a6a" font-size="12" font-weight="600" opacity="0">
     <animate attributeName="opacity" values="0;1" dur="0.01s" begin="0.2s" fill="freeze"/>
     <animate attributeName="opacity" values="1;0" dur="0.15s" begin="1.3s" fill="freeze"/>
     &gt; Type &quot;start&quot;
