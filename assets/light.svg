@@ -1,0 +1,305 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="Rishit Sethi Terminal Profile">
+<defs>
+  <pattern id="scan" x="0" y="0" width="1" height="3" patternUnits="userSpaceOnUse">
+    <rect width="1" height="1" fill="#6b0000" opacity="0.02"/>
+  </pattern>
+  <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#111111"/>
+    <stop offset="100%" stop-color="#080808"/>
+  </linearGradient>
+  <clipPath id="cl"><rect x="17" y="53" width="866" height="450"/></clipPath>
+  <clipPath id="cl-l"><rect x="17" y="53" width="415" height="450"/></clipPath>
+  <clipPath id="cl-r"><rect x="450" y="53" width="433" height="450"/></clipPath>
+</defs>
+
+<!-- outer terminal frame -->
+<rect width="900" height="520" fill="url(#bg)" rx="10"/>
+<rect width="900" height="520" fill="url(#scan)" rx="10"/>
+<rect width="900" height="520" rx="10" fill="none" stroke="#2a2a2a" stroke-width="1.5"/>
+
+<!-- title bar -->
+<rect x="0" y="0" width="900" height="38" rx="10" fill="#1a1a1a"/>
+<rect x="0" y="28" width="900" height="10" fill="#1a1a1a"/>
+<circle cx="28" cy="19" r="6" fill="#ff5f57"/>
+<circle cx="50" cy="19" r="6" fill="#febc2e"/>
+<circle cx="72" cy="19" r="6" fill="#28c840"/>
+<text x="450" y="23" font-family="'JetBrains Mono','Courier New',monospace" font-size="10" fill="#3a3a3a" text-anchor="middle">rishit@github - bash</text>
+<line x1="0" y1="38" x2="900" y2="38" stroke="#1e1e1e" stroke-width="1"/>
+
+<!-- thin red accent under titlebar -->
+<line x1="0" y1="39" x2="900" y2="39" stroke="#5a0000" stroke-width="1.5" opacity="0.7"/>
+
+<!-- divider between portrait and info (appears with content) -->
+<line x1="433" y1="50" x2="433" y2="520" stroke="#1e1e1e" stroke-width="1" opacity="0">
+  <animate attributeName="opacity" values="0;0.8" dur="0.01s" begin="5.4s" fill="freeze"/>
+</line>
+
+<!-- ============================================================ -->
+<!-- BOOT OVERLAY — covers full content area, fades at t=5.2s    -->
+<!-- ============================================================ -->
+<g font-family="'JetBrains Mono','Courier New',monospace" font-size="10.5">
+
+  <!-- solid cover -->
+  <rect x="0" y="39" width="900" height="481" fill="#0a0a0a">
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.95;1" dur="5.5s" fill="freeze"/>
+  </rect>
+
+  <!-- prompt -->
+  <text x="24" y="68" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.01s" begin="0.1s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.95;1" dur="5.5s" fill="freeze"/>
+    <tspan fill="#8b1a1a">rishit@github</tspan><tspan fill="#444">:</tspan><tspan fill="#555">~</tspan><tspan fill="#cccccc">$ </tspan>
+  </text>
+
+  <!-- hint text -->
+  <text x="104" y="68" fill="#505050" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.01s" begin="0.2s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;0" dur="0.15s" begin="1.3s" fill="freeze"/>
+    &gt; Type &quot;start&quot;
+  </text>
+  <rect x="104" y="57" width="7" height="13" fill="#7a1a1a" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.01s" begin="0.2s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;0;1" dur="0.6s" begin="0.2s" repeatCount="indefinite" calcMode="discrete"/>
+    <animate attributeName="opacity" values="1;0" dur="0.01s" begin="1.3s" fill="freeze"/>
+  </rect>
+
+  <!-- typing s t a r t -->
+  <text x="104" y="68" fill="#cccccc" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="1.45s" fill="freeze"/><animate attributeName="opacity" values="1;1;0" keyTimes="0;0.93;1" dur="5.5s" fill="freeze"/>s</text>
+  <text x="111" y="68" fill="#cccccc" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="1.60s" fill="freeze"/><animate attributeName="opacity" values="1;1;0" keyTimes="0;0.93;1" dur="5.5s" fill="freeze"/>t</text>
+  <text x="118" y="68" fill="#cccccc" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="1.75s" fill="freeze"/><animate attributeName="opacity" values="1;1;0" keyTimes="0;0.93;1" dur="5.5s" fill="freeze"/>a</text>
+  <text x="125" y="68" fill="#cccccc" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="1.90s" fill="freeze"/><animate attributeName="opacity" values="1;1;0" keyTimes="0;0.93;1" dur="5.5s" fill="freeze"/>r</text>
+  <text x="132" y="68" fill="#cccccc" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="2.05s" fill="freeze"/><animate attributeName="opacity" values="1;1;0" keyTimes="0;0.93;1" dur="5.5s" fill="freeze"/>t</text>
+
+  <!-- typing cursors -->
+  <rect x="104" y="57" width="7" height="13" fill="#7a1a1a" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.01s" begin="1.45s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;0;1" dur="0.6s" begin="1.45s" repeatCount="indefinite" calcMode="discrete"/>
+    <animate attributeName="opacity" values="1;0" dur="0.01s" begin="1.60s" fill="freeze"/>
+  </rect>
+  <rect x="111" y="57" width="7" height="13" fill="#7a1a1a" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.01s" begin="1.60s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;0;1" dur="0.6s" begin="1.60s" repeatCount="indefinite" calcMode="discrete"/>
+    <animate attributeName="opacity" values="1;0" dur="0.01s" begin="1.75s" fill="freeze"/>
+  </rect>
+  <rect x="118" y="57" width="7" height="13" fill="#7a1a1a" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.01s" begin="1.75s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;0;1" dur="0.6s" begin="1.75s" repeatCount="indefinite" calcMode="discrete"/>
+    <animate attributeName="opacity" values="1;0" dur="0.01s" begin="1.90s" fill="freeze"/>
+  </rect>
+  <rect x="125" y="57" width="7" height="13" fill="#7a1a1a" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.01s" begin="1.90s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;0;1" dur="0.6s" begin="1.90s" repeatCount="indefinite" calcMode="discrete"/>
+    <animate attributeName="opacity" values="1;0" dur="0.01s" begin="2.05s" fill="freeze"/>
+  </rect>
+  <rect x="132" y="57" width="7" height="13" fill="#7a1a1a" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.01s" begin="2.05s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;0;1" dur="0.6s" begin="2.05s" repeatCount="indefinite" calcMode="discrete"/>
+    <animate attributeName="opacity" values="1;0" dur="0.01s" begin="2.5s" fill="freeze"/>
+  </rect>
+
+  <!-- boot lines -->
+  <text x="24" y="86" fill="#484848" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.01s" begin="2.5s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.93;1" dur="5.5s" fill="freeze"/>
+    Initializing profile...
+  </text>
+  <text x="24" y="101" fill="#484848" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.01s" begin="3.0s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.93;1" dur="5.5s" fill="freeze"/>
+    Loading modules...
+  </text>
+  <text x="24" y="116" fill="#484848" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.01s" begin="3.5s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.93;1" dur="5.5s" fill="freeze"/>
+    Connecting...
+  </text>
+  <text x="24" y="131" fill="#484848" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.01s" begin="4.0s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.93;1" dur="5.5s" fill="freeze"/>
+    Rendering interface...
+  </text>
+  <text x="24" y="146" fill="#6b0000" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.01s" begin="4.6s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.93;1" dur="5.5s" fill="freeze"/>
+    Done.
+  </text>
+</g>
+
+<!-- ============================================================ -->
+<!-- LEFT SIDE — portrait, clipped, lines pop in top to bottom   -->
+<!-- cat command at t=5.3s, then portrait lines staggered 0.1s   -->
+<!-- ============================================================ -->
+<g clip-path="url(#cl-l)" font-family="'JetBrains Mono','Courier New',monospace">
+
+  <text x="20" y="66" font-size="10.5" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.01s" begin="5.3s" fill="freeze"/>
+    <tspan fill="#8b1a1a">rishit@github</tspan><tspan fill="#444">:</tspan><tspan fill="#555">~</tspan><tspan fill="#cccccc">$ cat portrait.txt</tspan>
+  </text>
+
+  <!-- portrait lines — font-size 9 fits 60 chars in ~405px -->
+  <text x="20" y="80"  font-size="9" fill="#7a7a7a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="5.5s"  fill="freeze"/>@@@@@@@@@@@@@@@@@@@@@@%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="20" y="91"  font-size="9" fill="#7a7a7a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="5.6s"  fill="freeze"/>@@@@@@@@@@@@@@@@@@@*-:::::-=*%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="20" y="102" font-size="9" fill="#7a7a7a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="5.7s"  fill="freeze"/>@@@@@@@@@@@@@@@@@@+   ..     .*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="20" y="113" font-size="9" fill="#7a7a7a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="5.8s"  fill="freeze"/>@@@@@@@@@@@@@@@@@+  .::--==-. .#@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="20" y="124" font-size="9" fill="#7a7a7a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="5.9s"  fill="freeze"/>@@@@@@@@@@@@@@@@@...-==++++++-:+@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="20" y="135" font-size="9" fill="#7a7a7a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="6.0s"  fill="freeze"/>@@@@@@@@@@@@@@@@@- :----=+=-=*:-@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="20" y="146" font-size="9" fill="#7a7a7a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="6.1s"  fill="freeze"/>@@@@@@@@@@@@@@@@@* :-=+=-+*++*==@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="20" y="157" font-size="9" fill="#7a7a7a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="6.2s"  fill="freeze"/>@@@@@@@@@@@@@@@@@#::=+=::=-=+*=*@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="20" y="168" font-size="9" fill="#7a7a7a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="6.3s"  fill="freeze"/>@@@@@@@@@@@@@@@@@@= :-:--=+--=-%@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="20" y="179" font-size="9" fill="#7a7a7a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="6.4s"  fill="freeze"/>@@@@@@@@@@@@@@@@@@@+...:::-:::#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="20" y="190" font-size="9" fill="#7a7a7a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="6.5s"  fill="freeze"/>@@@@@@@@@@@@@@@@@@@@:.......:*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="20" y="201" font-size="9" fill="#7a7a7a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="6.6s"  fill="freeze"/>@@@@@@@@@@@@@@@@@@%+-=====+**#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="20" y="212" font-size="9" fill="#7a7a7a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="6.7s"  fill="freeze"/>@@@@@@@@@@@@@@@@@%###*+++***#=+%@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="20" y="223" font-size="9" fill="#7a7a7a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="6.8s"  fill="freeze"/>@@@@@@@@@@@@@%%%####*********+=###%@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="20" y="234" font-size="9" fill="#7a7a7a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="6.9s"  fill="freeze"/>@@@@@@@@@%####%######*+*#**+##%%%#*####%@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="20" y="245" font-size="9" fill="#7a7a7a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="7.0s"  fill="freeze"/>@@@@@@@@#*###%%%%%%%%%#***+=#%%%%%##%%#%#%@@@@@@@@@@@@@@@@@@</text>
+  <text x="20" y="256" font-size="9" fill="#7a7a7a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="7.1s"  fill="freeze"/>@@@@@@@@*#####%#%%%#%%%%##*+#%%%%%%%%%%%%#%@@@@@@@@@@@@@@@@@</text>
+  <text x="20" y="267" font-size="9" fill="#7a7a7a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="7.2s"  fill="freeze"/>@@@@@@@%*###%%#%#%%%##%%%%###%%%%%%%%%#%%%%@@@@@@@@@@@@@@@@@</text>
+  <text x="20" y="278" font-size="9" fill="#7a7a7a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="7.3s"  fill="freeze"/>@@@@@@@%*###%%#%#%%%%##%%%%##%#%%%%%%###%#%%@@@@@@@@@@@@@@@@</text>
+  <text x="20" y="289" font-size="9" fill="#7a7a7a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="7.4s"  fill="freeze"/>@@@@@@@%*###%%%%##%%%%##%%%#%%%%%%%%%#####%#%@@@@@@@@@@@@@@@</text>
+  <text x="20" y="300" font-size="9" fill="#7a7a7a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="7.5s"  fill="freeze"/>@@@@@@@%*###%%%%%#%%%%%*#%%%%%%%%%%%*++++*#%%@@@@@@@@@@@@@@@</text>
+  <text x="20" y="311" font-size="9" fill="#7a7a7a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="7.6s"  fill="freeze"/>@@@@@@@@**#%%%%%%##%%%%%*%%%%%%%%%%*--=+++*#%%@@@@@@@@@@@@@@</text>
+  <text x="20" y="322" font-size="9" fill="#7a7a7a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="7.7s"  fill="freeze"/>@@@@@@@@#**##%%%%#*+++===+********+---===+==+*%@@@@@@@@@@@@@</text>
+  <text x="20" y="333" font-size="9" fill="#7a7a7a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="7.8s"  fill="freeze"/>@@@@@@@@#####%%%##*=-:.:==============+++++++=*@@@@@@@@@@@@@</text>
+  <text x="20" y="344" font-size="9" fill="#7a7a7a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="7.9s"  fill="freeze"/>@@@@@@@@%***+++++======-----=========++++++**+#@@@@@@@@@@@@@</text>
+  <text x="20" y="355" font-size="9" fill="#7a7a7a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="8.0s"  fill="freeze"/>@@@@@@@@@=.:-=======++===-------============+*@@@@@@@@@@@@@@</text>
+  <text x="20" y="366" font-size="9" fill="#7a7a7a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="8.1s"  fill="freeze"/>@@@@@@@@@@#=:=++++============----=======*##%@@@@@@@@@@@@@@@</text>
+  <text x="20" y="377" font-size="9" fill="#7a7a7a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="8.2s"  fill="freeze"/>@@@@@@@@@@@@+-===-------===+++*##*######+*@@@@@@@@@@@@@@@@@@</text>
+  <text x="20" y="388" font-size="9" fill="#7a7a7a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="8.3s"  fill="freeze"/>@@@@@@@@@@@@@********####%%%%%%%%%%%%%%%##@@@@@@@@@@@@@@@@@@</text>
+  <text x="20" y="399" font-size="9" fill="#7a7a7a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="8.4s"  fill="freeze"/>@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+
+  <!-- info lines below portrait -->
+  <text x="20" y="416" font-size="9.5" fill="#aaaaaa" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="8.5s" fill="freeze"/> name       : Rishit Sethi</text>
+  <text x="20" y="429" font-size="9.5" fill="#aaaaaa" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="8.6s" fill="freeze"/> role       : Mechatronics Eng. Student</text>
+  <text x="20" y="442" font-size="9.5" fill="#aaaaaa" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="8.7s" fill="freeze"/> university : Manipal University Jaipur</text>
+  <text x="20" y="455" font-size="9.5" fill="#aaaaaa" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="8.8s" fill="freeze"/> focus      : Robotics · Linux · Embedded</text>
+  <text x="20" y="468" font-size="9.5" fill="#8b1a1a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="8.9s" fill="freeze"/> building   : Sheller</text>
+  <text x="20" y="481" font-size="9.5" fill="#aaaaaa" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="9.0s" fill="freeze"/> os         : Linux</text>
+</g>
+
+<!-- ============================================================ -->
+<!-- RIGHT SIDE — info panel, lines appear top to bottom         -->
+<!-- ============================================================ -->
+<g clip-path="url(#cl-r)" font-family="'JetBrains Mono','Courier New',monospace" font-size="10.5">
+
+  <text x="450" y="75" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.01s" begin="5.5s" fill="freeze"/>
+    <tspan fill="#8b1a1a">rishit@github</tspan><tspan fill="#444">:</tspan><tspan fill="#555">~</tspan><tspan fill="#cccccc">$ systemctl status rishit</tspan>
+  </text>
+  <text x="450" y="92" fill="#28c840" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.01s" begin="5.8s" fill="freeze"/>
+    &#x25cf; rishit.service &#x2014; Active: active (running)
+  </text>
+  <text x="450" y="106" fill="#484848" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.01s" begin="6.0s" fill="freeze"/>
+      Loaded: /etc/profile.d/rishit.conf
+  </text>
+  <text x="450" y="120" fill="#484848" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.01s" begin="6.2s" fill="freeze"/>
+      Main PID: 9099 (python3)
+  </text>
+
+  <line x1="450" y1="130" x2="880" y2="130" stroke="#222" stroke-width="1" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.01s" begin="6.4s" fill="freeze"/>
+  </line>
+
+  <text x="450" y="147" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.01s" begin="6.5s" fill="freeze"/>
+    <tspan fill="#8b1a1a">rishit@github</tspan><tspan fill="#444">:</tspan><tspan fill="#555">~</tspan><tspan fill="#cccccc">$ ls skills/</tspan>
+  </text>
+
+  <!-- skill pills -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.2s" begin="6.8s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" values="-8,0;0,0" dur="0.2s" begin="6.8s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+    <rect x="450" y="155" width="62" height="20" rx="3" fill="#1c0505" stroke="#5a0f0f" stroke-width="1"/>
+    <text x="456" y="169" font-size="9.5" fill="#cc3333">Python</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.2s" begin="7.0s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" values="-8,0;0,0" dur="0.2s" begin="7.0s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+    <rect x="520" y="155" width="52" height="20" rx="3" fill="#111" stroke="#2e2e2e" stroke-width="1"/>
+    <text x="526" y="169" font-size="9.5" fill="#aaaaaa">Linux</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.2s" begin="7.2s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" values="-8,0;0,0" dur="0.2s" begin="7.2s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+    <rect x="580" y="155" width="68" height="20" rx="3" fill="#111" stroke="#2e2e2e" stroke-width="1"/>
+    <text x="586" y="169" font-size="9.5" fill="#aaaaaa">Robotics</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.2s" begin="7.4s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" values="-8,0;0,0" dur="0.2s" begin="7.4s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+    <rect x="656" y="155" width="72" height="20" rx="3" fill="#111" stroke="#2e2e2e" stroke-width="1"/>
+    <text x="662" y="169" font-size="9.5" fill="#aaaaaa">Embedded</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.2s" begin="7.6s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" values="-8,0;0,0" dur="0.2s" begin="7.6s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+    <rect x="736" y="155" width="40" height="20" rx="3" fill="#111" stroke="#2e2e2e" stroke-width="1"/>
+    <text x="742" y="169" font-size="9.5" fill="#aaaaaa">Git</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.2s" begin="7.8s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" values="-8,0;0,0" dur="0.2s" begin="7.8s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+    <rect x="450" y="183" width="60" height="20" rx="3" fill="#1c0505" stroke="#5a0f0f" stroke-width="1"/>
+    <text x="456" y="197" font-size="9.5" fill="#cc3333">Sheller</text>
+  </g>
+
+  <line x1="450" y1="213" x2="880" y2="213" stroke="#222" stroke-width="1" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.01s" begin="8.0s" fill="freeze"/>
+  </line>
+
+  <text x="450" y="229" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.01s" begin="8.1s" fill="freeze"/>
+    <tspan fill="#8b1a1a">rishit@github</tspan><tspan fill="#444">:</tspan><tspan fill="#555">~</tspan><tspan fill="#cccccc">$ cat current_build.txt</tspan>
+  </text>
+  <text x="450" y="245" fill="#cccccc" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.01s" begin="8.4s" fill="freeze"/>project  : Sheller</text>
+  <text x="450" y="259" fill="#cccccc" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.01s" begin="8.6s" fill="freeze"/>lang     : Python</text>
+  <text x="450" y="273" fill="#cccccc" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.01s" begin="8.8s" fill="freeze"/>
+    status   : <tspan fill="#f0883e">WIP &#x2014; active development</tspan>
+  </text>
+  <text x="450" y="287" fill="#cccccc" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.01s" begin="9.0s" fill="freeze"/>goal     : make terminals less painful</text>
+
+  <line x1="450" y1="298" x2="880" y2="298" stroke="#222" stroke-width="1" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.01s" begin="9.2s" fill="freeze"/>
+  </line>
+
+  <text x="450" y="314" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.01s" begin="9.3s" fill="freeze"/>
+    <tspan fill="#8b1a1a">rishit@github</tspan><tspan fill="#444">:</tspan><tspan fill="#555">~</tspan><tspan fill="#cccccc">$ connect --list</tspan>
+  </text>
+  <text x="450" y="330" fill="#aaaaaa" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.01s" begin="9.6s" fill="freeze"/>
+    github  &#x2192;  github.com/RishitSethi9099
+  </text>
+
+  <line x1="450" y1="341" x2="880" y2="341" stroke="#222" stroke-width="1" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.01s" begin="9.8s" fill="freeze"/>
+  </line>
+
+  <text x="450" y="357" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.01s" begin="9.9s" fill="freeze"/>
+    <tspan fill="#8b1a1a">rishit@github</tspan><tspan fill="#444">:</tspan><tspan fill="#555">~</tspan><tspan fill="#cccccc">$ exit</tspan>
+  </text>
+  <text x="450" y="372" fill="#484848" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.01s" begin="10.1s" fill="freeze"/>
+    [process exited 0]
+  </text>
+
+  <text x="450" y="390" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.01s" begin="10.3s" fill="freeze"/>
+    <tspan fill="#8b1a1a">rishit@github</tspan><tspan fill="#444">:</tspan><tspan fill="#555">~</tspan><tspan fill="#cccccc">$ </tspan>
+  </text>
+  <rect x="526" y="378" width="7" height="13" fill="#8b1a1a" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.01s" begin="10.3s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;0;1" dur="0.8s" begin="10.3s" repeatCount="indefinite" calcMode="discrete"/>
+  </rect>
+
+</g>
+
+</svg>
