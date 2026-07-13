@@ -203,7 +203,6 @@
   <text x="455" y="174" fill="#666" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="7.3s" fill="freeze"/>  microcontroller + camera-assisted navigation</text>
   <text x="455" y="186" fill="#aaaaaa" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="7.4s" fill="freeze"/>&#x25b6; RC Submarine             <tspan fill="#f0883e">[active]</tspan></text>
   <text x="455" y="198" fill="#666" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="7.5s" fill="freeze"/>  underwater vehicle, propulsion + stability</text>
-  <text x="455" y="210" fill="#aaaaaa" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="7.6s" fill="freeze"/>&#x25b6; ESP32 Embedded Systems</text>
   <text x="455" y="222" fill="#666" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="7.7s" fill="freeze"/>  sensor systems, remote interaction, HW/SW debug</text>
   <line x1="455" y1="231" x2="883" y2="231" stroke="#222" stroke-width="1" opacity="0">
     <animate attributeName="opacity" values="0;1" dur="0.01s" begin="7.8s" fill="freeze"/>
@@ -217,47 +216,47 @@
   <text x="455" y="257" fill="#aaaaaa" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="8.1s" fill="freeze"/>lang    : <tspan fill="#cccccc">Python  C/C++</tspan></text>
   <text x="455" y="269" fill="#aaaaaa" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="8.2s" fill="freeze"/>hw      : <tspan fill="#cccccc">ESP32  Arduino  Embedded  Sensors</tspan></text>
   <text x="455" y="281" fill="#aaaaaa" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="8.3s" fill="freeze"/>tools   : <tspan fill="#cccccc">Linux  Git  Docker  VS Code  APIs</tspan></text>
-  <line x1="455" y1="291" x2="883" y2="291" stroke="#222" stroke-width="1" opacity="0">
-    <animate attributeName="opacity" values="0;1" dur="0.01s" begin="8.4s" fill="freeze"/>
+  <text x="455" y="294" fill="#aaaaaa" opacity="0" font-size="9.0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="8.45s" fill="freeze"/>learn   : <tspan fill="#cccccc">Computer Networking  Data Analysis  Data Modeling  Data Structures</tspan></text>
+  <text x="455" y="307" fill="#aaaaaa" opacity="0" font-size="9.0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="8.55s" fill="freeze"/>learn   : <tspan fill="#cccccc">Data Visualization Tools  Formal Communication  Log Analysis  Planning</tspan></text>
+  <line x1="455" y1="312" x2="883" y2="312" stroke="#222" stroke-width="1" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.01s" begin="8.62s" fill="freeze"/>
   </line>
-  <text x="455" y="305" fill="#aaaaaa" opacity="0" font-size="9.2"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="8.45s" fill="freeze"/>learn   : <tspan fill="#cccccc">Computer Networking  Data Analysis  Data Modeling  Data Structures</tspan></text>
-  <text x="455" y="318" fill="#aaaaaa" opacity="0" font-size="9.2"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="8.55s" fill="freeze"/>learn   : <tspan fill="#cccccc">Data Visualization Tools  Formal Communication  Log Analysis  Planning</tspan></text>
 
   <!-- experience -->
-  <text x="455" y="326" opacity="0">
+  <text x="455" y="323" opacity="0">
     <animate attributeName="opacity" values="0;1" dur="0.01s" begin="8.7s" fill="freeze"/>
     <tspan fill="#8b1a1a">rishit@github</tspan><tspan fill="#444">:</tspan><tspan fill="#555">~</tspan><tspan fill="#cccccc">$ cat experience.txt</tspan>
   </text>
-  <text x="455" y="339" fill="#cc3333" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="8.9s" fill="freeze"/>Deloitte Australia  |  Data Analytics Simulation  |  Jul 2026</text>
-  <text x="455" y="351" fill="#666" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="9.0s" fill="freeze"/>  Tableau dashboard, Excel data classification, forensic tech</text>
-  <text x="455" y="363" fill="#aaaaaa" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="9.1s" fill="freeze"/>Business Analytics Intern  |  EdiGlobe  |  Feb-Mar 2025</text>
-  <text x="455" y="375" fill="#666" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="9.2s" fill="freeze"/>  data analysis, business problem-solving workflows</text>
-  <text x="455" y="387" fill="#aaaaaa" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="9.3s" fill="freeze"/>Core Committee (Corp. Affairs)  |  RAS, MUJ</text>
-  <text x="455" y="399" fill="#666" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="9.4s" fill="freeze"/>  sponsorships, partnerships, event operations</text>
-  <text x="455" y="411" fill="#aaaaaa" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="9.5s" fill="freeze"/>Production Team  |  TechIdeate  |  2024</text>
-  <text x="455" y="423" fill="#666" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="9.6s" fill="freeze"/>  logistics, execution for technical events</text>
-  <line x1="455" y1="433" x2="883" y2="433" stroke="#222" stroke-width="1" opacity="0">
+  <text x="455" y="336" fill="#cc3333" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="8.9s" fill="freeze"/>Deloitte Australia  |  Data Analytics Simulation  |  Jul 2026</text>
+  <text x="455" y="348" fill="#666" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="9.0s" fill="freeze"/>  Tableau dashboard, Excel data classification, forensic tech</text>
+  <text x="455" y="360" fill="#aaaaaa" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="9.1s" fill="freeze"/>Currently Managing Director  |  RAS, MUJ</text>
+  <text x="455" y="372" fill="#666" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="9.2s" fill="freeze"/>  college club at Manipal University Jaipur</text>
+  <text x="455" y="384" fill="#aaaaaa" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="9.3s" fill="freeze"/>Core Committee (Corp. Affairs)  |  RAS, MUJ</text>
+  <text x="455" y="396" fill="#666" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="9.4s" fill="freeze"/>  sponsorships, partnerships, event operations</text>
+  <text x="455" y="408" fill="#aaaaaa" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="9.5s" fill="freeze"/>Production Team  |  TechIdeate  |  2024</text>
+  <text x="455" y="420" fill="#666" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="9.6s" fill="freeze"/>  logistics, execution for technical events</text>
+  <line x1="455" y1="430" x2="883" y2="430" stroke="#222" stroke-width="1" opacity="0">
     <animate attributeName="opacity" values="0;1" dur="0.01s" begin="9.7s" fill="freeze"/>
   </line>
 
   <!-- connect -->
-  <text x="455" y="446" opacity="0">
+  <text x="455" y="443" opacity="0">
     <animate attributeName="opacity" values="0;1" dur="0.01s" begin="9.8s" fill="freeze"/>
     <tspan fill="#8b1a1a">rishit@github</tspan><tspan fill="#444">:</tspan><tspan fill="#555">~</tspan><tspan fill="#cccccc">$ connect --list</tspan>
   </text>
-  <text x="455" y="459" fill="#aaaaaa" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="10.0s" fill="freeze"/>github   &#x2192;  github.com/RishitSethi9099</text>
-  <text x="455" y="471" fill="#aaaaaa" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="10.1s" fill="freeze"/>linkedin &#x2192;  linkedin.com/in/rishit-sethi</text>
-  <text x="455" y="483" fill="#cc3333" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="10.2s" fill="freeze"/>project  &#x2192;  sheller.me</text>
-  <text x="455" y="495" fill="#484848" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="10.3s" fill="freeze"/>mail     &#x2192;  rishitsethi0405@gmail.com</text>
+  <text x="455" y="456" fill="#aaaaaa" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="10.0s" fill="freeze"/>instagram &#x2192;  rishit.sethi</text>
+  <text x="455" y="468" fill="#aaaaaa" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="10.1s" fill="freeze"/>linkedin &#x2192;  linkedin.com/in/rishit-sethi</text>
+  <text x="455" y="480" fill="#cc3333" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="10.2s" fill="freeze"/>project  &#x2192;  sheller.me</text>
+  <text x="455" y="492" fill="#484848" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.01s" begin="10.3s" fill="freeze"/>mail     &#x2192;  rishitsethi0405@gmail.com</text>
 
-  <!-- final prompt + cursor -->
+  <!-- final prompt -->
   <text x="455" y="513" opacity="0">
     <animate attributeName="opacity" values="0;1" dur="0.01s" begin="10.5s" fill="freeze"/>
     <tspan fill="#8b1a1a">rishit@github</tspan><tspan fill="#444">:</tspan><tspan fill="#555">~</tspan><tspan fill="#cccccc">$ </tspan>
   </text>
-  <rect x="531" y="501" width="7" height="13" fill="#8b1a1a" opacity="0">
-    <animate attributeName="opacity" values="0;1" dur="0.01s" begin="10.5s" fill="freeze"/>
-    <animate attributeName="opacity" values="1;0;1" dur="0.8s" begin="10.5s" repeatCount="indefinite" calcMode="discrete"/>
+  <rect x="700" y="480" width="7" height="13" fill="#8b1a1a" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.01s" begin="10.3s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;0;1" dur="0.8s" begin="10.3s" repeatCount="indefinite" calcMode="discrete"/>
   </rect>
 
 </g>
